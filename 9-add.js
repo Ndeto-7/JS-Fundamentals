@@ -1,16 +1,16 @@
-function add(x, y) {
-  if (x === undefined && y === undefined) {
+function add(a, b) {
+  if (a === undefined && b === undefined) {
     return "Missing both arguments";
-  } else if (x === undefined) {
+  } else if (a === undefined) {
     return "Missing the first argument";
-  } else if (y === undefined) {
+  } else if (b === undefined) {
     return "Missing the second argument";
   } else {
-    return x + y;
+    return a + b;
   }
 }
 
-let x = 5;
-let y = 6;
+let a = 5;
+let b = 6;
 
-console.log(add(x, y));
+console.log(add(a, b));

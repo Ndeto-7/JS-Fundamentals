@@ -1,5 +1,5 @@
-const first = "Good morning";
+const first = "morning";
 const second = "Bonjour";
 
-console.log(first + "is" + second);
+console.log(first + " is " + second);
 
